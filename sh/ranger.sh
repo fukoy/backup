@@ -4,5 +4,5 @@ mkdir ./ranger && tar -xzvf ranger-stable.tar.gz -C ./ranger --strip-components 
 cd ranger
 sudo make install
 cd ~
-rm -rf ranger ranger-stable.tar.gz ranger.sh
+rm -f ranger ranger-stable.tar.gz ranger.sh
 ranger
